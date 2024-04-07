@@ -1,7 +1,7 @@
 <?php
-$host = 'roundhouse.proxy.rlwy.net';
+$host = 'localhost';
 $usuario = 'root';
-$senha = 'PChdAMyuFiBRQwJNOFDsXUffLhWdQcbq';
+$senha = 'root';
 $bancoDeDados = "americanairlines";
 $conexao = new mysqli($host, $usuario, $senha, $bancoDeDados);
 if ($conexao->connect_error) {

@@ -1,5 +1,5 @@
 <?php
-include "conexao.php";
+include "./private/conexao.php";
 // Verificar se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Incluir o arquivo de conexão com o banco de dados

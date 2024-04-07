@@ -53,7 +53,7 @@ mysqli_close($conexao);
       <!-- Navbar -->
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Shop Rotas</a>
+        <a class="navbar-brand" href="#">Shop Aviões</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,7 +79,7 @@ mysqli_close($conexao);
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="dropdown-item" href="../game/index.php">Principal</a></li>
-                    <li><a class="dropdown-item" href="rotas.php">Verificar sua Rotas</a></li>
+                    <li><a class="dropdown-item" href="#">Banco do Airlines</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
@@ -100,24 +100,9 @@ mysqli_close($conexao);
 
     <!-- Pricing section -->
     <div class="container py-5" style="margin-top: 50px;">
-        <script src="rotas.js"></script>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <form>
-            <div class="mb-3">
-                <label for="select1" class="form-label">De:</label>
-                <select class="form-select" id="select1">
-                <!-- Opções preenchidas pelo JavaScript -->
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="select2" class="form-label">Para:</label>
-                <select class="form-select" id="select2">
-                <!-- Opções preenchidas pelo JavaScript -->
-                </select>
-            </div>
-            <button type="button" class="btn btn-primary mt-3" id="comprarRota">Comprar Rota</button>
-            </form>
-        </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <script src="bank.js"></script>
+      </div>
     </div>
 
     <!-- Rodapé aprimorado -->
@@ -141,7 +126,7 @@ mysqli_close($conexao);
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="confirmationModalLabel">Confirmação de Despache</h5>
+                <h5 class="modal-title" id="confirmationModalLabel">Confirmação de Compra</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -174,7 +159,7 @@ mysqli_close($conexao);
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="successModalLabel">Despache Efetuado</h5>
+                <h5 class="modal-title" id="successModalLabel">Compra Efetuada</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
