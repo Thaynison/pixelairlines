@@ -100,7 +100,7 @@ mysqli_close($conexao);
 
     <!-- Pricing section -->
     <div class="container py-5" style="margin-top: 50px;">
-        <script src="rotas.js"></script>
+        <script src="bucar_rotas.js"></script>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <form>
             <div class="mb-3">
